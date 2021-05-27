@@ -1,0 +1,39 @@
+{
+  "name": "ggs-api",
+  "version": "1.0.0",
+  "description": "API for General Global Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "David Quintero",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.2.0",
+    "joi": "^17.3.0",
+    "joi-objectid": "^3.0.1",
+    "joi-phone-number": "^5.0.0",
+    "joi-us-zipcode": "^2.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.5",
+    "nodemailer": "^6.4.17",
+    "socket.io": "^3.1.0",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.5"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  }
+}
